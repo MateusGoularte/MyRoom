@@ -1,0 +1,19 @@
+@import './Login.css';
+
+.auth-form textarea {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 12px 14px;
+  color: var(--text-primary);
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.15s;
+  width: 100%;
+  resize: none;
+  height: 80px;
+}
+
+.auth-form textarea:focus {
+  border-color: var(--blue);
+}
